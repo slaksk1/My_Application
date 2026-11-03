@@ -30,7 +30,7 @@ Aplikacja korzysta z oficjalnego, publicznego feedu **GBFS (General Bikeshare Fe
 
 ### Ekran 1: Główna lista stacji
 * **Pasek wyszukiwania:** Filtrowanie stacji w czasie rzeczywistym po wpisaniu tekstu (np. „Marszałkowska”, „Metro”).
-* **Lista stacji (`LazyColumn`):** Kafelki z nazwą stacji oraz czytelnym wskaźnikiem (np. `🟢 6 wolnych rowerów | 4 wolne stojaki`).
+* **Lista stacji (`LazyColumn`):** Kafelki z nazwą stacji oraz czytelnym wskaźnikiem (np. ` 6 wolnych rowerów | 4 wolne stojaki`).
 * **Stany aplikacji:**
   * Wskaźnik ładowania (`CircularProgressIndicator`), gdy aplikacja pobiera dane.
   * Obsługa braku internetu (czytelny komunikat z przyciskiem „Spróbuj ponownie”).
