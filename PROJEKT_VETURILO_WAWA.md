@@ -222,10 +222,10 @@ fun openGoogleMaps(context: Context, lat: Double, lon: Double, stationName: Stri
 ## 7. Q/A
 
 1. **Dlaczego Jetpack Compose a nie XML?**
-   * *Compose to deklaratywny UI w czystym Kotlinie – eliminuje pliki XML, `findViewById` i skomplikowane adaptery list (`RecyclerView`). Kod jest krótszy i mniej podatny na błędy.
+   * Compose to deklaratywny UI w czystym Kotlinie – eliminuje pliki XML, `findViewById` i skomplikowane adaptery list (`RecyclerView`). Kod jest krótszy i mniej podatny na błędy.
 2. **Co robi `suspend` przy funkcji `getStations()`?**
-   * * Oznacza funkcję zawieszalną (Kotlin Coroutines), która wykonuje zapytanie sieciowe asynchronicznie w tle, dzięki czemu interfejs aplikacji nie zacina się podczas pobierania danych.
+   * Oznacza funkcję zawieszalną (Kotlin Coroutines), która wykonuje zapytanie sieciowe asynchronicznie w tle, dzięki czemu interfejs aplikacji nie zacina się podczas pobierania danych.
 3. **Czym jest `ViewModel` i dlaczego jest użyty?**
-   * *Ponieważ przetrzymuje stan ekranu (listę, stan ładowania) i przetrwa obrócenie ekranu telefonu, zapobiegając niepotrzebnemu ponownemu pobieraniu danych z internetu.
+   * Ponieważ przetrzymuje stan ekranu (listę, stan ładowania) i przetrwa obrócenie ekranu telefonu, zapobiegając niepotrzebnemu ponownemu pobieraniu danych z internetu.
 4. **Dlaczego jest użyty `Intent` zamiast Google Maps SDK?**
-   * *Zamiast obciążać aplikację zewnętrznym SDK i kluczami API, wykorzystujemy natywną aplikację zainstalowaną w systemie Android (`Intent.ACTION_VIEW`), co oszczędza zasoby i baterię.
+   * Zamiast obciążać aplikację zewnętrznym SDK i kluczami API, wykorzystujemy natywną aplikację zainstalowaną w systemie Android (`Intent.ACTION_VIEW`), co oszczędza zasoby i baterię.
