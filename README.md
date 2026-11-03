@@ -52,7 +52,7 @@ Aplikacja korzysta z publicznych feedów GBFS 2.3:
 
 ## Jak uruchomić projekt
 
-1. Otwórz projekt w **Android Studio** (Koala / Ladybug lub nowszy).
-2. Poczekaj na zsynchronizowanie projektu przez Gradle.
-3. Podłącz telefon z Androidem (debugowanie USB) lub uruchom emulator (API 24+).
-4. Kliknij zielony przycisk **Run 'app'** (`Shift + F10`).
+1. Otworzyć projekt w **Android Studio** (Koala / Ladybug lub nowszy).
+2. Poczekać na zsynchronizowanie projektu przez Gradle.
+3. Podłączyć telefon z Androidem (debugowanie USB) lub uruchom emulator (API 24+).
+4. Kliknąć zielony przycisk **Run 'app'** (`Shift + F10`).
