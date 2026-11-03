@@ -9,7 +9,7 @@ Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 
 - **Pobieranie danych na żywo z oficjalnego API GBFS** (General Bikeshare Feed Specification) systemu Nextbike Warszawa (Veturilo).
 - **Lista stacji (`LazyColumn`)**:
   - Nazwa stacji oraz adres / lokalizacja.
-  - Czytelne plakietki z liczbą wolnych rowerów (`🟢 X wolnych rowerów`) oraz wolnych stojaków (`🅿️ Y stojaków`).
+  - Czytelne plakietki z liczbą wolnych rowerów (`X wolnych rowerów`) oraz wolnych stojaków (`"P" Y stojaków`).
 - **Wyszukiwarka w czasie rzeczywistym**: natychmiastowe filtrowanie stacji po wpisaniu tekstu (np. *Marszałkowska*, *Metro*, *Dworzec*).
 - **Szybki filtr**: przełącznik „Tylko wolne rowery (>0)” ukrywający stacje bez dostępnych jednośladów.
 - **Karta szczegółów (Modal Bottom Sheet)**:
