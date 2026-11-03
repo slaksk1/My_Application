@@ -1,4 +1,4 @@
-# Veturilo Wawa 🚲
+# Veturilo Wawa 
 
 Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 3)** oraz architekturze **MVVM**, prezentująca stan stacji roweru miejskiego w Warszawie (Veturilo) w czasie rzeczywistym.
 
@@ -24,7 +24,7 @@ Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 
 
 ---
 
-## 🏗️ Architektura i technologie
+## Architektura i technologie
 
 - **Język:** Kotlin
 - **Interfejs:** Jetpack Compose + Material 3 (deklaratywny UI)
@@ -42,7 +42,7 @@ Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 
 
 ---
 
-## 🌐 Źródła danych (GBFS Veturilo)
+## Źródła danych (GBFS Veturilo)
 
 Aplikacja korzysta z publicznych feedów GBFS 2.3:
 - **Informacje o stacjach:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vw/pl/station_information.json`
@@ -50,7 +50,7 @@ Aplikacja korzysta z publicznych feedów GBFS 2.3:
 
 ---
 
-## 🚀 Jak uruchomić projekt
+## Jak uruchomić projekt
 
 1. Otwórz projekt w **Android Studio** (Koala / Ladybug lub nowszy).
 2. Poczekaj na zsynchronizowanie projektu przez Gradle.
