@@ -1,6 +1,6 @@
-# Projekt na zaliczenie: „Veturilo Wawa” (Android Studio + Jetpack Compose)
+# Projekt: „Veturilo Wawa” (Android Studio + Jetpack Compose)
 
-Kompletna dokumentacja koncepcyjna i techniczna prostej aplikacji na zaliczenie przedmiotu akademickiego. Aplikacja korzysta z otwartych danych miejskich m.st. Warszawy (system Veturilo / standard GBFS).
+Dokumentacja koncepcyjna i techniczna prostej aplikacji mobilnej. Aplikacja korzysta z otwartych danych miejskich m.st. Warszawy (system Veturilo / standard GBFS).
 
 ---
 
@@ -24,11 +24,9 @@ Aplikacja korzysta z oficjalnego, publicznego feedu **GBFS (General Bikeshare Fe
    * URL: `https://gbfs.urbansharing.com/rowerowawarszawa.pl/station_status.json`
    * Zawiera: `station_id`, `num_bikes_available`, `num_docks_available`, `is_installed`, `is_renting`.
 
-*(W podstawowej wersji na zaliczenie wystarczy odpytać jedno połączone źródło lub połączyć te dwa modele prostą pętlą w kodzie).*
-
 ---
 
-## 3. Kluczowe funkcjonalności (Zakres na zaliczenie)
+## 3. Kluczowe funkcjonalności
 
 ### Ekran 1: Główna lista stacji
 * **Pasek wyszukiwania:** Filtrowanie stacji w czasie rzeczywistym po wpisaniu tekstu (np. „Marszałkowska”, „Metro”).
@@ -221,13 +219,13 @@ fun openGoogleMaps(context: Context, lat: Double, lon: Double, stationName: Stri
 
 ---
 
-## 7. Ściągawka na obronę projektu (Pytania prowadzącego)
+## 7. Q/A
 
 1. **Dlaczego Jetpack Compose a nie XML?**
-   * *Odpowiedź:* Compose to deklaratywny UI w czystym Kotlinie – eliminuje pliki XML, `findViewById` i skomplikowane adaptery list (`RecyclerView`). Kod jest krótszy i mniej podatny na błędy.
+   * *Compose to deklaratywny UI w czystym Kotlinie – eliminuje pliki XML, `findViewById` i skomplikowane adaptery list (`RecyclerView`). Kod jest krótszy i mniej podatny na błędy.
 2. **Co robi `suspend` przy funkcji `getStations()`?**
-   * *Odpowiedź:* Oznacza funkcję zawieszalną (Kotlin Coroutines), która wykonuje zapytanie sieciowe asynchronicznie w tle, dzięki czemu interfejs aplikacji nie zacina się podczas pobierania danych.
-3. **Czym jest `ViewModel` i dlaczego go używasz?**
-   * *Odpowiedź:* Przetrzymuje stan ekranu (listę, stan ładowania) i przetrwa obrócenie ekranu telefonu, zapobiegając niepotrzebnemu ponownemu pobieraniu danych z internetu.
-4. **Dlaczego używasz `Intent` zamiast Google Maps SDK?**
-   * *Odpowiedź:* Zamiast obciążać aplikację zewnętrznym SDK i kluczami API, wykorzystujemy natywną aplikację zainstalowaną w systemie Android (`Intent.ACTION_VIEW`), co oszczędza zasoby i baterię.
+   * * Oznacza funkcję zawieszalną (Kotlin Coroutines), która wykonuje zapytanie sieciowe asynchronicznie w tle, dzięki czemu interfejs aplikacji nie zacina się podczas pobierania danych.
+3. **Czym jest `ViewModel` i dlaczego jest użyty?**
+   * *Ponieważ przetrzymuje stan ekranu (listę, stan ładowania) i przetrwa obrócenie ekranu telefonu, zapobiegając niepotrzebnemu ponownemu pobieraniu danych z internetu.
+4. **Dlaczego jest użyty `Intent` zamiast Google Maps SDK?**
+   * *Zamiast obciążać aplikację zewnętrznym SDK i kluczami API, wykorzystujemy natywną aplikację zainstalowaną w systemie Android (`Intent.ACTION_VIEW`), co oszczędza zasoby i baterię.
