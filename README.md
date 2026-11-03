@@ -4,7 +4,7 @@ Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 
 
 ---
 
-## 📱 Funkcjonalności
+## Funkcjonalności
 
 - **Pobieranie danych na żywo z oficjalnego API GBFS** (General Bikeshare Feed Specification) systemu Nextbike Warszawa (Veturilo).
 - **Lista stacji (`LazyColumn`)**:
