@@ -211,6 +211,7 @@ class MainViewModel : ViewModel() {
 Prosty kod, który otwiera mapę w telefonie:
 ```kotlin
 fun openGoogleMaps(context: Context, lat: Double, lon: Double, stationName: String) {
+    // lat (szerokość geograficzna) , lon (długość geograficzna)
     val uri = Uri.parse("geo:$lat,$lon?q=$lat,$lon($stationName)")
     val intent = Intent(Intent.ACTION_VIEW, uri)
     context.startActivity(intent)
