@@ -632,7 +632,7 @@ fun DetailInfoCard(
 
 /**
  * Uruchomienie fabrycznej nawigacji Google Maps za pomocą Intent.ACTION_VIEW
- * Zgodnie ze specyfikacją projektu: brak konieczności konfiguracji Google Maps SDK i kluczy API.
+ * Brak konieczności konfiguracji Google Maps SDK i kluczy API.
  */
 fun openGoogleMaps(context: Context, lat: Double, lon: Double, stationName: String) {
     try {
