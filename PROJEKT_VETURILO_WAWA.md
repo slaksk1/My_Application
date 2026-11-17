@@ -1,6 +1,6 @@
 # Projekt: „Veturilo Wawa” (Android Studio + Jetpack Compose)
 
-Dokumentacja koncepcyjna i techniczna prostej aplikacji mobilnej. Aplikacja korzysta z otwartych danych miejskich m.st. Warszawy (system Veturilo / standard GBFS).
+Dokumentacja techniczna aplikacji mobilnej. Aplikacja korzysta z otwartych danych miejskich m.st. Warszawy (system Veturilo / standard GBFS).
 
 ---
 
