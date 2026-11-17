@@ -4,6 +4,27 @@ Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 
 
 ---
 
+## 📦 Pobranie i instalacja pliku APK (bez kompilacji)
+
+Aplikację można zainstalować bezpośrednio na telefonie z systemem Android (wersja Android 7.0 / API 24 lub nowszy) bez konieczności uruchamiania Android Studio.
+
+### 📥 1. Pobierz plik instalacyjny APK:
+- **Bezpośrednie pobranie z repozytorium:**  
+  👉 [**Pobierz veturilo-wawa.apk**](https://github.com/slaksk1/My_Application/raw/main/apk/veturilo-wawa.apk)  
+  *(plik znajduje się również bezpośrednio w katalogu [`apk/veturilo-wawa.apk`](./apk/veturilo-wawa.apk))*.
+
+### 📲 2. Instrukcja instalacji krok po kroku na telefonie:
+1. Kliknij powyższy link z telefonu, aby pobrać plik `veturilo-wawa.apk`.
+2. Po zakończeniu pobierania stuknij w powiadomienie lub otwórz pobrany plik w aplikacji **Pliki** / **Pobrane**.
+3. Jeśli pojawi się komunikat systemu Android o instalacji ze źródeł zewnętrznych:
+   - Kliknij **Ustawienia** (Settings) w wyskakującym oknie.
+   - Włącz przełącznik **Zezwalaj z tego źródła** (Allow from this source) dla przeglądarki lub menedżera plików.
+   - Wróć do instalatora.
+4. Kliknij **Zainstaluj** (Install).
+5. Gotowe! Otwórz aplikację **Veturilo Wawa** i korzystaj z podglądu stacji rowerowych na żywo.
+
+---
+
 ## 📱 Funkcjonalności
 
 - **Pobieranie danych na żywo z oficjalnego API GBFS** (General Bikeshare Feed Specification) systemu Nextbike Warszawa (Veturilo).
@@ -50,7 +71,7 @@ Aplikacja korzysta z publicznych feedów GBFS 2.3:
 
 ---
 
-## 🚀 Jak uruchomić projekt
+## 🚀 Jak uruchomić projekt z kodu źródłowego
 
 1. Otwórz projekt w **Android Studio** (Koala / Ladybug lub nowszy).
 2. Poczekaj na zsynchronizowanie projektu przez Gradle.
