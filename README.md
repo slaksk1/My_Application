@@ -1,19 +1,19 @@
-# Veturilo Wawa 🚲
+# Veturilo Wawa 
 
 Aplikacja mobilna na platformę Android stworzona w **Jetpack Compose (Material 3)** oraz architekturze **MVVM**, prezentująca stan stacji roweru miejskiego w Warszawie (Veturilo) w czasie rzeczywistym.
 
 ---
 
-## 📦 Pobranie i instalacja pliku APK (bez kompilacji)
+##  Pobranie i instalacja pliku APK (bez kompilacji)
 
 Aplikację można zainstalować bezpośrednio na telefonie z systemem Android (wersja Android 7.0 / API 24 lub nowszy) bez konieczności uruchamiania Android Studio.
 
-### 📥 1. Pobierz plik instalacyjny APK:
+###  1. Pobierz plik instalacyjny APK:
 - **Bezpośrednie pobranie z repozytorium:**  
-  👉 [**Pobierz veturilo-wawa.apk**](https://github.com/slaksk1/My_Application/raw/main/apk/veturilo-wawa.apk)  
+   [**Pobierz veturilo-wawa.apk**](https://github.com/slaksk1/My_Application/raw/main/apk/veturilo-wawa.apk)  
   *(plik znajduje się również bezpośrednio w katalogu [`apk/veturilo-wawa.apk`](./apk/veturilo-wawa.apk))*.
 
-### 📲 2. Instrukcja instalacji krok po kroku na telefonie:
+###  2. Instrukcja instalacji krok po kroku na telefonie:
 1. Kliknij powyższy link z telefonu, aby pobrać plik `veturilo-wawa.apk`.
 2. Po zakończeniu pobierania stuknij w powiadomienie lub otwórz pobrany plik w aplikacji **Pliki** / **Pobrane**.
 3. Jeśli pojawi się komunikat systemu Android o instalacji ze źródeł zewnętrznych:
@@ -25,12 +25,12 @@ Aplikację można zainstalować bezpośrednio na telefonie z systemem Android (w
 
 ---
 
-## 📱 Funkcjonalności
+##  Funkcjonalności
 
 - **Pobieranie danych na żywo z oficjalnego API GBFS** (General Bikeshare Feed Specification) systemu Nextbike Warszawa (Veturilo).
 - **Lista stacji (`LazyColumn`)**:
   - Nazwa stacji oraz adres / lokalizacja.
-  - Czytelne plakietki z liczbą wolnych rowerów (`🟢 X wolnych rowerów`) oraz wolnych stojaków (`🅿️ Y stojaków`).
+  - Czytelne plakietki z liczbą wolnych rowerów (` X wolnych rowerów`) oraz wolnych stojaków (` Y stojaków`).
 - **Wyszukiwarka w czasie rzeczywistym**: natychmiastowe filtrowanie stacji po wpisaniu tekstu (np. *Marszałkowska*, *Metro*, *Dworzec*).
 - **Szybki filtr**: przełącznik „Tylko wolne rowery (>0)” ukrywający stacje bez dostępnych jednośladów.
 - **Karta szczegółów (Modal Bottom Sheet)**:
@@ -45,7 +45,7 @@ Aplikację można zainstalować bezpośrednio na telefonie z systemem Android (w
 
 ---
 
-## 🏗️ Architektura i technologie
+##  Architektura i technologie
 
 - **Język:** Kotlin
 - **Interfejs:** Jetpack Compose + Material 3 (deklaratywny UI)
@@ -63,7 +63,7 @@ Aplikację można zainstalować bezpośrednio na telefonie z systemem Android (w
 
 ---
 
-## 🌐 Źródła danych (GBFS Veturilo)
+##  Źródła danych (GBFS Veturilo)
 
 Aplikacja korzysta z publicznych feedów GBFS 2.3:
 - **Informacje o stacjach:** `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vw/pl/station_information.json`
@@ -71,7 +71,7 @@ Aplikacja korzysta z publicznych feedów GBFS 2.3:
 
 ---
 
-## 🚀 Jak uruchomić projekt z kodu źródłowego
+##  Jak uruchomić projekt z kodu źródłowego
 
 1. Otwórz projekt w **Android Studio** (Koala / Ladybug lub nowszy).
 2. Poczekaj na zsynchronizowanie projektu przez Gradle.
