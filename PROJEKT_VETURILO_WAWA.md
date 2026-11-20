@@ -18,10 +18,10 @@ Dokumentacja techniczna aplikacji mobilnej. Aplikacja korzysta z otwartych danyc
 Aplikacja korzysta z oficjalnego, publicznego feedu **GBFS (General Bikeshare Feed Specification)** dla systemu rowerów w Warszawie:
 
 1. **Informacje o stacjach (nazwy, współrzędne GPS):**
-   * URL: `https://gbfs.urbansharing.com/rowerowawarszawa.pl/station_information.json`
+   * URL: `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vw/pl/station_information.json`
    * Zawiera: `station_id`, `name`, `address`, `lat`, `lon`, `capacity`.
 2. **Status stacji na żywo (dostępność rowerów):**
-   * URL: `https://gbfs.urbansharing.com/rowerowawarszawa.pl/station_status.json`
+   * URL: `https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vw/pl/station_status.json`
    * Zawiera: `station_id`, `num_bikes_available`, `num_docks_available`, `is_installed`, `is_renting`.
 
 ---
